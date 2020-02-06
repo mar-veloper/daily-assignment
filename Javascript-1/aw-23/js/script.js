@@ -13,5 +13,5 @@ function getImages(json) {
     </div>`;
   });
 
-  carouselInnerHTML.innerHTML = newHTML;
+  return (carouselInnerHTML.innerHTML += newHTML);
 }
